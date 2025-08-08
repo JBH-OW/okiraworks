@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirigiendo...</title>
+    <script>
+      // Si estás en www.okiraworks.com, redirige a okiraworks.com
+      if (window.location.hostname === "www.okiraworks.com") {
+        const newUrl = window.location.href.replace("www.okiraworks.com", "okiraworks.com");
+        window.location.replace(newUrl);
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo...</p>
+  </body>
+</html>
