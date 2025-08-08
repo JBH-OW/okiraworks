@@ -275,3 +275,11 @@ footer {
 .service-card:hover h3 {
   color: var(--color-primary);
 }
+
+.logo-img {
+  height: auto;
+  max-height: 60px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
